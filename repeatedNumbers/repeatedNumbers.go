@@ -9,7 +9,6 @@ func main() {
 	num := 100
 	fmt.Println("myFunc1: ", myFunc1(num))
 	fmt.Println("myFunc2: ", myFunc2(num))
-
 }
 
 func myFunc1(num int) int {
