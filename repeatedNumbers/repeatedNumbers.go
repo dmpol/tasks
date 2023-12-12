@@ -20,7 +20,6 @@ func myFunc1(num int) int {
 		str := strconv.Itoa(i)
 
 		for j := 0; j < len(str); j++ {
-
 			if _, ok := m[string(str[j])]; ok {
 				count++
 				break
@@ -32,7 +31,6 @@ func myFunc1(num int) int {
 }
 
 func myFunc2(num int) int {
-
 	var count, k int
 	var n byte
 
